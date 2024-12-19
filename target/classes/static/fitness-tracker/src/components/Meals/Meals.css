@@ -1,0 +1,129 @@
+.meal-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: var(--radius);
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meal-card {
+    text-align: center;
+}
+
+.meal-title {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.meal-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: var(--radius);
+    border: 1px solid var(--primary-color);
+    font-size: 1rem;
+}
+
+.meal-form button {
+    padding: 10px 15px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.meal-form button:hover {
+    background-color: #2ecc71;
+}
+
+.meal-list {
+    margin-top: 30px;
+}
+
+.meal-item {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.meal-item h5 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.meal-item p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.meal-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.meal-actions button:hover {
+    opacity: 0.8;
+}
+
+.meal-actions .edit-button {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.meal-actions .delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.meal-actions .delete-button:hover {
+    background-color: #c0392b;
+}
+
+.meal-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-content h5 {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: var(--radius);
+    border: 1px solid var(--primary-color);
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-actions button {
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+

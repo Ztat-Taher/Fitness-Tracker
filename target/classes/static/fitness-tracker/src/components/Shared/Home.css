@@ -1,0 +1,141 @@
+
+  
+  /* Home Container */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #da635d;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #da635d;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background-color: #4e4e56;
+  }
+  
+  .hero-img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Features Section */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  .features h2 {
+    grid-column: span 3;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .feature-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #da635d;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #777;
+    max-width: 800px;
+    margin: 0 auto;
+  }
